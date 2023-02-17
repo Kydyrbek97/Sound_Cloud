@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register('search', views.Search)
-router.register('tracklist', views.TrackViewSet)
+router.register('track', views.TrackViewSet)
 urlpatterns = [
     path('genre/', views.GenreView.as_view()),
     path('license/', views.LicenseView.as_view({'get': 'list', 'post': 'create'})),
