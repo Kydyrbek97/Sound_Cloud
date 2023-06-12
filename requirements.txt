@@ -8,8 +8,4 @@ python-decouple
 Pillow
 django-rest-passwordreset
 requests
-beautifulsoup4
-lxml
-aiogram
-openai
-pyTelegramBotAPI
+
